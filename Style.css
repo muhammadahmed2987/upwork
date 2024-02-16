@@ -1,0 +1,214 @@
+ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 5px;
+    flex-direction: row;
+    width: 97%;
+    position: fixed;
+    padding: 5px;
+    top: 0;
+    left: 0;
+}
+.a3 , .one , .two, .three , .four , .child2 , .child3{
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    margin bottom: 20%;
+    top: 0;
+    left: 0;
+}
+.three{
+    margin-right: 6%;
+}
+.two{
+    margin-left: 4%;
+}
+.a1{
+    margin-right: 4%;
+}
+select{
+    border-color: white;
+}
+button{
+    border-radius: 50px; */
+}
+.main2{
+    margin-top: 40px;
+}
+.a2 , .chi{
+    margin-top: 3%;
+    display: flex;
+    margin-left: 0.7%;
+}
+.a2{
+    display: flex;
+    position: fixed;
+    justify-content: start;
+    flex-direction: row;
+}
+.a4{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 50px;
+    padding-top: 200px;
+    width: 90%;
+    margin: auto;
+}
+.a4 button{
+    color: white;
+    background-color: green;
+    width: 100px;
+    margin-top: 20px;
+}
+.a5 , .a6{
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+.a5{
+    display: flex;
+    justify-content: center;
+    margin: ;
+    
+    
+}
+.a6{
+    display: flex;
+    justify-content: flex-end;
+    width: ;
+    margin-left: %;
+
+}
+.a4 h1{
+    font-size: 80px ;color: rgb(40, 150, 40);
+    font-style: oblique;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left:0 ;
+}
+.abc{
+    border-radius: 50px;
+    width: 25%;
+    height: 50%;
+    margin-left: 10px;
+}
+.rate{
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.efg{
+    width: 23%;
+    height: 90px;
+    padding: 1%;
+    margin: 0.1%;
+}
+.efg:hover{
+    transform: 0;
+    transition: 0;
+    color: gray;
+    cursor: pointer;
+}
+.card{
+    position: static;
+    border: none;
+    border-radius: 10px;
+}
+.ordr{
+    order: -1;
+}
+.card2{
+    margin-top: 50px;
+}
+.card-body h1{
+    font-size: 60px;
+    font-style: oblique;
+}
+.main5{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 95%;
+    /* height: 80vh;  */
+    margin: auto;
+    padding: 15px 0px;
+    margin-top: 50px;
+    color: whitesmoke;
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQGQGqFVv6CeoA/article-cover_image-shrink_720_1280/0/1672822256439?e=2147483647&v=beta&t=fc_bhDy_NvytkhOHD6Kp9ZdS-V1o7EGdach2-96vCK0);
+    background-size: cover;
+}
+.m1{
+    /* border: 1px solid black; */
+    /* width: 20%; */
+    margin: 20px 20px;
+    display: flex;
+}
+.m2{
+    /* border: 1px solid black; */
+    /* width: 50%; */
+    height: 30vh;
+    margin: 35px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.m3{
+    display: flex;
+    width: 100%;
+}
+.mm{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 25vh;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+.mm:hover{
+    transform: none;
+    transition: 1s;
+    color: green;
+    background-color: white;
+    cursor: pointer;
+}
+.m2 h1{
+    font-size: 60px;
+    font-style: oblique;
+}
+@media only screen and (max-width: 650px) {
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    .m3{
+        display: flex;
+        flex-direction: column;
+    }
+    .mm{
+        width: 100%;
+        margin: 10px 10px;
+        padding: 0;
+    }
+    .rate{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .efg{
+        width: 50%;
+        height: 90px;
+        padding: 1%;
+        margin: 0.1%;
+    }
+}
